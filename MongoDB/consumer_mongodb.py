@@ -10,11 +10,11 @@ client = MongoClient('mongodb://localhost:27017/')
 db = client['attractions_db']
 collection = db["attractions"]
 
-if "attractions" in db.list_collection_names():
-    collection.drop()
-    print("La collection '{}' a été supprimée".format(collection.name))
+# if "attractions" in db.list_collection_names():
+#     collection.drop()
+#     print("La collection '{}' a été supprimée".format(collection.name))
 
-consumer = KafkaConsumer("topic_attractions", group_id="mongo_group", bootstrap_servers='localhost:9092')
+consumer = KafkaConsumer("topic1", bootstrap_servers='localhost:9092')
 print("server connected")
 
 themes_names = {"P1AA" : "Adventureland", "P1DA" : "Discoveryland", "P1MA" : "Main Street, U.S.A.", "P1NA" : "Fantasyland", "P1RA" : "Frontierland", "P2ZA" : "Backlot", "P2XA" : "Production Courtyard", "P2YA" : "Toon Studio"}

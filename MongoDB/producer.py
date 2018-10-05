@@ -9,6 +9,7 @@ url_magickingdom = "https://parksapi.herokuapp.com/api/dlp-mk"
 url_studios = "https://parksapi.herokuapp.com/api/dlp-wds"
 
 producer = kafka.KafkaProducer(bootstrap_servers="localhost:9092")
+
 json_file = {}
 studios_list = {}
 magickingdom_list = {}
@@ -42,6 +43,6 @@ while True:
     except urllib.error.URLError as e:
         print(e.reason)
 
-    producer.send("topic_attractions", json.dumps(json_file).encode())
+    producer.send("topic1", json.dumps(json_file).encode())
     print(json_file)
     time.sleep(10)

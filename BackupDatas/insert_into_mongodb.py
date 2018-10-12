@@ -1,3 +1,4 @@
+#!/usr/bin/env/python3
 import os
 import logging
 from pymongo import MongoClient
@@ -11,7 +12,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
 
-def insert_into_mongdb(path_repository):
+def insert_into_mongodb(path_repository):
     for file in os.listdir(path_repository):
         with open(path_repository + file) as f:
             data = json.load(f)

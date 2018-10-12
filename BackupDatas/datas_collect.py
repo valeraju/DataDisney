@@ -1,11 +1,15 @@
+#!/usr/bin/env/python3
 import wget
 import os
 import shutil, filecmp, re
-import logging
+import logging, datetime
 
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
+user_path_directory = os.path.expanduser('~')
+
+today = datetime.datetime.today().strftime('%Y%m%d_%H%M%S')
 
 
 def fill_repo(user_path_directory, today):
@@ -36,4 +40,3 @@ def fill_repo(user_path_directory, today):
                         shutil.copyfile(records_path + filename_studios, lastrecovered_path + filename_studios)
     except Exception as e:
         logging.error('Error occured during the execution of fill_last_recovered_repo() method', exc_info=True)
-

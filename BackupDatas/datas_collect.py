@@ -1,32 +1,20 @@
 import wget
-import os, errno
-from datetime import *
-import logging
+import os
 import shutil, filecmp, re
 import logging
 
-url_magickingdom = "https://parksapi.herokuapp.com/api/dlp-mk"
-url_studios = "https://parksapi.herokuapp.com/api/dlp-wds"
-user_path_directory = os.path.expanduser('~')
-today = datetime.today().strftime('%Y%m%d_%H%M%S')
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-try:
-    os.makedirs(user_path_directory + "/DataRaw/Records")
-    os.makedirs(user_path_directory + "/DataRaw/LastRecovered")
-except OSError as e:
-    if e.errno != errno.EEXIST:
-        raise
 
-
-def fill_repo():
+def fill_repo(user_path_directory, today):
+    url_magickingdom = "https://parksapi.herokuapp.com/api/dlp-mk"
+    url_studios = "https://parksapi.herokuapp.com/api/dlp-wds"
     lastrecovered_path = user_path_directory + "/DataRaw/LastRecovered/"
     records_path = user_path_directory + "/DataRaw/Records/"
     filename_magickingdom = today + "_DisneylandParisMagicKingdom.json"
-    filename_studios= today + "_DisneylandParisWaltDisneyStudios.json"
-
+    filename_studios = today + "_DisneylandParisWaltDisneyStudios.json"
     try:
         #Recovering and saving API JSON files to a directory
         wget.download(url_magickingdom, records_path + filename_magickingdom)
@@ -46,9 +34,6 @@ def fill_repo():
                     if not filecmp.cmp(lastrecovered_path + file, records_path + filename_studios):
                         os.remove(lastrecovered_path + file)
                         shutil.copyfile(records_path + filename_studios, lastrecovered_path + filename_studios)
-
     except Exception as e:
         logging.error('Error occured during the execution of fill_last_recovered_repo() method', exc_info=True)
 
-
-fill_repo()

@@ -7,9 +7,6 @@ import logging, datetime
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
-user_path_directory = os.path.expanduser('~')
-
-today = datetime.datetime.today().strftime('%Y%m%d_%H%M%S')
 
 
 def fill_repo(user_path_directory, today):

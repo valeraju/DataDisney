@@ -5,7 +5,7 @@ import json
 es = Elasticsearch()
 
 # To consume messages
-consumer = KafkaConsumer('disney', group_id="es_group", bootstrap_servers=['localhost:9092'])
+consumer = KafkaConsumer('topic1', bootstrap_servers=['localhost:9092'])
 print("connected to consumer")
 
 i = 0

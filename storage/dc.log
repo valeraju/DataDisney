@@ -1,0 +1,170 @@
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unsupported operand type(s) for +: 'UUID' and 'str'
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download json files
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unsupported operand type(s) for +: 'UUID' and 'str'
+INFO:root:Trying to download json files
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unsupported operand type(s) for +: 'UUID' and 'str'
+INFO:root:Trying to download json files
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unsupported operand type(s) for +: 'UUID' and 'str'
+INFO:root:Trying to download json files
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : [Errno 2] No such file or directory: '/home/valeraju/DATA_LAKE/02_DATA_RAW/'
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : 'dict' object has no attribute 'has_key'
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unhashable type: 'list'
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unhashable type: 'list'
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unhashable type: 'list'
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unhashable type: 'list'
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unhashable type: 'list'
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unhashable type: 'list'
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unhashable type: 'list'
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : unhashable type: 'list'
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.538s]
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : [Errno 2] No such file or directory: '20181016_222607_MK.json'
+INFO:root:Trying to download the first json file - MagicKingdom
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : [Errno 2] No such file or directory: '/home/valeraju/DATA_LAKE/01_RAW_DATA//home/valeraju/DATA_LAKE/01_RAW_DATA/20181016_222827_MK.json'
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : Expecting value: line 1 column 1 (char 0)
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : Expecting value: line 1 column 1 (char 0)
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : Expecting value: line 1 column 1 (char 0)
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : Expecting value: line 1 column 1 (char 0)
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : Expecting value: line 1 column 1 (char 0)
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : Expecting value: line 1 column 1 (char 0)
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : Expecting value: line 1 column 1 (char 0)
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : [Errno 2] No such file or directory: '20181016_223356_MK.json'
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : [Errno 2] No such file or directory: '20181016_223422_MK.json'
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : Expecting value: line 1 column 1 (char 0)
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+ERROR:root:Error occured during the execution of fill_last_recovered_repo() method : [Errno 2] No such file or directory: '20181016_223616_MK.json'
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.041s]
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:elasticsearch:PUT http://localhost:9200/logs [status:400 request:0.116s]
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.201s]
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:elasticsearch:HEAD http://localhost:9200/logs [status:200 request:0.005s]
+INFO:elasticsearch:DELETE http://localhost:9200/logs [status:200 request:0.069s]
+INFO:elasticsearch:PUT http://localhost:9200/logs [status:400 request:0.036s]
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.217s]
+INFO:elasticsearch:HEAD http://localhost:9200/logs [status:200 request:0.001s]
+INFO:elasticsearch:DELETE http://localhost:9200/logs [status:200 request:0.034s]
+INFO:elasticsearch:PUT http://localhost:9200/logs [status:400 request:0.075s]
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.193s]
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:elasticsearch:HEAD http://localhost:9200/logs [status:200 request:0.002s]
+INFO:elasticsearch:DELETE http://localhost:9200/logs [status:200 request:0.050s]
+INFO:elasticsearch:PUT http://localhost:9200/logs [status:400 request:0.038s]
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.222s]
+INFO:elasticsearch:HEAD http://localhost:9200/logs [status:200 request:0.003s]
+INFO:elasticsearch:DELETE http://localhost:9200/logs [status:200 request:0.077s]
+INFO:elasticsearch:PUT http://localhost:9200/logs [status:400 request:0.059s]
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.199s]
+INFO:root:Trying to download the first json file - MagicKingdom
+INFO:root:Trying to download the second json file - Studios
+INFO:elasticsearch:PUT http://localhost:9200/logs [status:400 request:0.043s]
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.249s]
+INFO:elasticsearch:PUT http://localhost:9200/logs [status:400 request:0.058s]
+INFO:elasticsearch:POST http://localhost:9200/logs/rawdata [status:201 request:0.049s]

@@ -5,20 +5,23 @@ import shutil, filecmp, re
 import logging, datetime
 
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+# initialize the log settings
+logging.basicConfig(filename='dc.log',level=logging.INFO)
 
 
 def fill_repo(user_path_directory, today):
     url_magickingdom = "https://parksapi.herokuapp.com/api/dlp-mk"
     url_studios = "https://parksapi.herokuapp.com/api/dlp-wds"
-    lastrecovered_path = user_path_directory + "/DataRaw/LastRecovered/"
+    lastrecovered_path = user_path_directory + "/data/LastRecovered/"
     records_path = user_path_directory + "/DataRaw/Records/"
     filename_magickingdom = today + "_DisneylandParisMagicKingdom.json"
     filename_studios = today + "_DisneylandParisWaltDisneyStudios.json"
     try:
         #Recovering and saving API JSON files to a directory
+        logging.info('Trying to download the first json file - MagicKingdom')
         wget.download(url_magickingdom, records_path + filename_magickingdom)
+
+        logging.info('Trying to download the second json file - Studios')
         wget.download(url_studios, records_path + filename_studios)
 
         #Check if LastRecovered directory is empty
@@ -36,4 +39,4 @@ def fill_repo(user_path_directory, today):
                         os.remove(lastrecovered_path + file)
                         shutil.copyfile(records_path + filename_studios, lastrecovered_path + filename_studios)
     except Exception as e:
-        logging.error('Error occured during the execution of fill_last_recovered_repo() method', exc_info=True)
+        logging.error('Error occured during the execution of fill_last_recovered_repo() method : {}'.format(e))

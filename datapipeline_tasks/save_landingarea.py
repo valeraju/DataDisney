@@ -1,4 +1,7 @@
-import datetime, os, errno, requests, shutil
+import datetime, os, errno, requests, shutil, json
+from airflow.operators.python_operator import PythonOperator
+from airflow.operators.dummy_operator import DummyOperator
+from airflow.models import DAG
 
 user_path_directory = os.path.expanduser('~')
 today = datetime.datetime.today().strftime('%Y%m%d_%H%M%S')
@@ -8,7 +11,18 @@ data_raw_path = user_path_directory + "/DATA_LAKE/02_RAW_DATA/"
 data_landing_area = user_path_directory + "/DATA_LAKE/00_LANDING_AREA/"
 filename_mk = str(today) + '_MK' + '.json'
 filename_wds = str(today) + '_WDS' + '.json'
-filename_wds = str(today) + '_WDS' + '.json'
+
+args = {
+    'owner': 'airflow',
+    'start_date': datetime.datetime.strptime('2018-11-16T00:00:00', '%Y-%m-%dT%H:%M:%S')
+}
+
+dag = DAG(
+  dag_id='test_dag',
+  start_date= datetime.datetime.strptime('2018-11-16T00:00:00', '%Y-%m-%dT%H:%M:%S'),
+  schedule_interval='*/1 * * * *',
+  default_args=args,
+)
 
 
 def save():
@@ -45,10 +59,24 @@ def save():
         return -1
 
 
-def main():
-    save()
+def analyse():
+    status = None
+    with open(data_landing_area) as f:
+        for attraction in json.load(f):
+            if "id" in attraction and "name" in attraction and "active" in attraction and "waitTime" in attraction and "lastUpdate" in attraction and "status" in attraction:
+                status = 0
+            else:
+                status = -1
+                break
+    return status
 
 
-if __name__ == "__main__":
-    main()
+dummy_operator = DummyOperator(task_id='dummy_task', retries=3, dag=dag)
+
+save_operator = PythonOperator(
+    task_id='save_task',
+    python_callable=save,
+    dag=dag)
+
+dummy_operator >> save_operator
 
